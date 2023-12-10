@@ -1,0 +1,91 @@
+.brands {
+  width: 100%;
+  height: 360px;
+  background-color: #f9f9f9;
+}
+.brands .brandtop {
+  width: inherit;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands .brandtop h2 {
+  font-family: persian;
+  font-size: 26px;
+  font-weight: bold;
+  color: #25282a;
+}
+.brands .brandslider {
+  width: inherit;
+  height: 150px;
+  padding-top: 45px;
+  box-sizing: border-box;
+}
+.brands .brandbottom {
+  width: inherit;
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands .brandbottom .brandobserve {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.brands .brandbottom .brandobserve a {
+  width: 310px;
+  line-height: 50px;
+  font-family: persian;
+  color: #00bf6f;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.brands .brandbottom .brandobserve a .brandbutton {
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+  border: lightgrey solid 1px;
+  transition: 500ms;
+}
+.brands .brandbottom .brandobserve:hover .brandbutton {
+  border: #00bf6f solid 1px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.brandarm {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 50px;
+}
+.brandarm .img {
+  width: 115px;
+  height: 50px;
+}
+.brandarm .img a {
+  width: inherit;
+  height: inherit;
+  display: block;
+  object-fit: cover;
+}
+.brandarm .img a img {
+  display: block;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+

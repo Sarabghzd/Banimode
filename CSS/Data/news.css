@@ -1,0 +1,83 @@
+.news {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+.news .main {
+  width: 1430px;
+  height: 240px;
+  background-image: url(../../Image/letter.svg);
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+.news .main h2 {
+  position: absolute;
+  top: 105px;
+  font-family: persian;
+  font-size: 26px;
+  font-weight: lighter;
+}
+.news .main p {
+  position: absolute;
+  top: 155px;
+  font-family: persian;
+}
+.news .email {
+  width: 650px;
+  height: 75px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 25px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.news .email input[type="email"] {
+  all: unset;
+  width: 450px;
+  height: 55px;
+  border: unset;
+  font-family: persian;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #efefef;
+}
+.news .email input[type="submit"] {
+  all: unset;
+  width: 140px;
+  height: 55px;
+  font-family: persian;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-align: right;
+  padding-right: 20px;
+  background-color: #00bf6f;
+  color: #efffff;
+  line-height: 55px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 300ms;
+  vertical-align: middle;
+}
+.news .email input[type="submit"]:hover {
+  background-color: #029759;
+}
+.news .email i {
+  position: absolute;
+  width: 10px;
+  height: 55px;
+  left: 40px;
+  font-size: bold;
+  color: #efffff;
+  font-size: 20px;
+  line-height: 57px;
+  vertical-align: middle;
+}

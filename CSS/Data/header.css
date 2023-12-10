@@ -1,0 +1,691 @@
+header {
+  width: 100%;
+  height: 195px;
+  box-shadow: 0 1px 1px lightgray;
+}
+header .top {
+  width: inherit;
+  height: 60px;
+}
+header .top a {
+  text-decoration: none;
+}
+header .top a img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+header .bottom {
+  width: inherit;
+  height: 135px;
+}
+header .bottom .upbottom {
+  width: inherit;
+  height: 90px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+header .bottom .upbottom .center {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+}
+header .bottom .upbottom .center .login {
+  width: 200px;
+  height: inherit;
+  padding-top: 25px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+header .bottom .upbottom .center .login .bag {
+  text-decoration: none;
+  margin-left: 25px;
+  display: inline-block;
+}
+header .bottom .upbottom .center .login i {
+  font-size: 30px;
+  color: black;
+  vertical-align: middle;
+}
+header .bottom .upbottom .center .login :hover i {
+  color: #00bf6f;
+}
+header .bottom .upbottom .center .login .register {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  background-color: #00bf6f;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: persian;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+header .bottom .upbottom .center .login .register:hover {
+  background-color: #009657;
+}
+header .bottom .upbottom .center .search {
+  width: 970px;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+}
+header .bottom .upbottom .center .search i {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(77, 76, 76);
+  bottom: 28px;
+  right: 140px;
+}
+header .bottom .upbottom .center .search input[type="search"] {
+  width: 714px;
+  height: 50px;
+  border: none;
+  outline: unset;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+header .bottom .upbottom .center .search input[type="search"]::placeholder {
+  color: #757575;
+  font-family: persian;
+  font-size: 15px;
+}
+header .bottom .upbottom .center .logo {
+  display: inline-block;
+  vertical-align: top;
+}
+header .bottom .upbottom .center .logo svg {
+  margin-top: 24px;
+}
+header .bottom .downbottom {
+  width: 100%;
+  height: 45px;
+}
+header .bottom .downbottom .menu {
+  width: 1430px;
+  height: 45px;
+  margin: 0 auto;
+}
+header .bottom .downbottom .menu nav {
+  width: inherit;
+  height: inherit;
+}
+header .bottom .downbottom .menu nav {
+  width: inherit;
+  height: inherit;
+  list-style-type: none;
+  position: relative;
+}
+header .bottom .downbottom .menu nav div {
+  display: inline-block;
+  height: inherit;
+  width: auto;
+}
+.line {
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  overflow: hidden;
+  display: block;
+  bottom: 0;
+}
+.line::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  display: block;
+  background-color: #03bd70;
+  position: absolute;
+  bottom: 0;
+  right: -150px;
+  transition: 100ms;
+}
+header .bottom .downbottom .menu nav div:hover .line::after {
+  right: 0;
+}
+
+header .bottom .downbottom .menu nav div a {
+  text-decoration: none;
+  color: black;
+  width: auto;
+  height: inherit;
+  line-height: 45px;
+  font-family: persian;
+  font-size: 12px;
+  padding-left: 30px;
+}
+header .bottom .downbottom .menu nav div a i {
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.border span {
+  display: inline-block;
+  width: 2px;
+  height: 15px;
+  background-color: #bcbec0;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.category {
+  font-size: 14px !important;
+}
+
+header .bottom .downbottom .menu nav div .submenu {
+  width: 100%;
+  height: 530px;
+  background-color: white;
+  position: absolute;
+  border-radius: 0 0 7px 7px;
+  z-index: 2;
+  box-shadow: 1px 20px 100px rgb(226, 226, 226);
+  right: 0;
+  top: 45px;
+  transition: 1000ms;
+  display: none;
+}
+header .bottom .downbottom .menu nav div:hover .submenu {
+  display: block;
+}
+header .bottom .downbottom .menu nav div .submenu .right {
+  width: 170px;
+  height: 530px;
+  border-left: 1px solid rgb(217, 216, 216);
+  overflow: auto;
+}
+header .bottom .downbottom .menu nav div .submenu .right div {
+  display: unset;
+  width: 170px;
+  height: auto;
+}
+header .bottom .downbottom .menu nav div .submenu .right div a {
+  display: block;
+  width: 100%;
+  height: inherit;
+  font-family: persian;
+  padding-right: 10px;
+  box-sizing: border-box;
+  transition: 300ms;
+  font-size: 11px;
+  font-weight: bold;
+}
+header .bottom .downbottom .menu nav div .submenu .right div a svg {
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 10px;
+  transition: 300ms;
+}
+header .bottom .downbottom .menu nav div .submenu .right div a:hover {
+  background-color: #d8d9dace;
+  color: #03bd70;
+}
+header .bottom .downbottom .menu nav div .submenu .right div a:hover svg {
+  fill: #03bd70;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #cccccc;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 {
+  width: calc(1430px - 170px);
+  height: 530px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  transition: 300ms;
+}
+header .bottom .downbottom .menu nav div .submenu .right div:hover .submenu2 {
+  display: block;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h2 {
+  margin-bottom: 30px;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h2 a {
+  font-family: persian;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 100ms;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h2 a i {
+  font-size: 12px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  h2
+  a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  h2
+  a:hover
+  i {
+  color: black;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h3 {
+  height: 40px;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h3 a {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 100ms;
+}
+header .bottom .downbottom .menu nav div .submenu .right div .submenu2 h3 a i {
+  font-size: 12px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  h3
+  a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  h3
+  a:hover
+  i {
+  color: black;
+}
+.border2 span {
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  background-color: #03bd70;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  div {
+  width: fit-content;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  div
+  h2 {
+  margin-bottom: 30px;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  div
+  p
+  a {
+  color: gray;
+  font-size: 12px;
+  transition: 300ms;
+  font-weight: lighter;
+  height: 25px;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  div
+  p
+  a:hover {
+  background-color: unset;
+  color: #03bd70;
+}
+.column {
+  margin-top: 75px;
+  color: gray !important;
+  font-size: 12px !important;
+  transition: 300ms;
+  font-weight: lighter !important;
+  height: 25px !important;
+  position: relative;
+}
+.column ~ a {
+  color: gray !important;
+  font-size: 12px !important;
+  transition: 300ms;
+  font-weight: lighter !important;
+  height: 25px !important;
+}
+.column ~ a:hover {
+  color: #03bd70 !important;
+  background-color: unset !important;
+}
+.column:hover {
+  color: #03bd70 !important;
+  background-color: unset !important;
+}
+
+.pic a img {
+  margin-top: 10px;
+}
+.pic a:hover {
+  background-color: unset !important;
+}
+.pic a p {
+  font-family: persian;
+  font-size: 16px;
+  color: #3b3b3b;
+  margin-top: 10px;
+}
+.pic .brand img {
+  width: 75px;
+  margin: 5px;
+}
+.change {
+  margin-top: 75px;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  .column4 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.column4 .pic {
+  margin-right: 55px;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  .column3 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 455px 455px 465px;
+}
+.column3 .pic {
+  margin-right: 87px;
+}
+header
+  .bottom
+  .downbottom
+  .menu
+  nav
+  div
+  .submenu
+  .right
+  div
+  .submenu2
+  .divider
+  .column2 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 700px 700px;
+}
+.column2 .pic {
+  margin-right: 297px;
+}
+header .bottom .downbottom .menu nav .brand {
+  position: relative;
+}
+header .bottom .downbottom .menu nav .brand .submenu {
+  width: 460px;
+  position: absolute;
+  top: 44px;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandname {
+  width: 40%;
+  height: inherit;
+  padding-right: 10%;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandname h3 a {
+  font-size: 16px;
+  color: #3b3b3b;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandname h3 a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandname h3 ~ a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+.bold {
+  font-weight: bold;
+}
+.bold i {
+  font-size: 12px !important;
+  font-weight: bold;
+  margin-right: 5px;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandlogo {
+  width: 60%;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  padding-top: 8px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandlogo .title {
+  width: inherit;
+  height: 30px;
+}
+
+header .bottom .downbottom .menu nav .brand .submenu .brandlogo .title p {
+  line-height: 30px;
+  font-size: 16px;
+  font-family: persian;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandlogo .title p svg {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+header .bottom .downbottom .menu nav .brand .submenu .brandlogo .brandpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .bottom .downbottom .menu nav .brand .line::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  display: block;
+  background-color: #03bd70;
+  position: absolute;
+  bottom: 0;
+  right: -150px;
+  transition: 100ms;
+  z-index: 20;
+}
+
+header .bottom .downbottom .menu nav .brand:hover .line::after {
+  right: 0;
+}
+header .bottom .downbottom .menu nav .promotion .line::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background-color: #03bd70;
+  position: absolute;
+  bottom: 0;
+  right: -150px;
+  transition: 100ms;
+  z-index: 28;
+}
+header .bottom .downbottom .menu nav .promotion:hover .line::after {
+  right: 0;
+}
+
+header .bottom .downbottom .menu nav .promotion {
+  position: relative;
+}
+header .bottom .downbottom .menu nav .promotion .submenu {
+  width: 140px;
+  height: 200px;
+  position: absolute;
+  top: 44px;
+  z-index: 20;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+header .bottom .downbottom .menu nav .promotion .submenu h3 {
+  margin-top: 10px;
+}
+header .bottom .downbottom .menu nav .promotion .submenu h3 a {
+  font-size: 14px !important;
+  color: #3b3b3b;
+  font-family: persian;
+}
+header .bottom .downbottom .menu nav .promotion .submenu ul {
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+header .bottom .downbottom .menu nav .promotion .submenu ul li a {
+  font-size: 14px;
+  font-family: persian;
+  color: rgb(52, 52, 52);
+}
+header .bottom .downbottom .menu nav .promotion .submenu h3 a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+header .bottom .downbottom .menu nav .promotion .submenu h3 ~ ul li a:hover {
+  color: #03bd70;
+  background-color: unset;
+}
+::marker {
+  color: #02a461;
+}
+/* .active{
+  display: block !important;
+} */

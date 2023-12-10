@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Persian;
+  src: url(../../Font/IRANYekanWebFn.eot);
+  src: url(../../Font/IRANYekanWebFn.woff);
+  src: url(../../Font/IRANYekanWebFn.woff2);
+  src: url(../../Font/IRANYekanWebFn.ttf);
+}
+.wrapper {
+  width: 100%;
+}

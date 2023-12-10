@@ -1,0 +1,331 @@
+.amazing {
+  width: 100%;
+  height: 740px;
+  margin-top: 30px;
+}
+.amazing .amazingtop {
+  width: 100%;
+  height: 90px;
+}
+
+.amazing .amazingtop .center {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.amazing .amazingtop .center .amazingpic {
+  width: 715px;
+  height: inherit;
+  display: inline-block;
+}
+.amazing .amazingtop .center .amazingpic img {
+  width: 310px;
+  margin: 16px;
+}
+.amazing .amazingtop .center .time {
+  width: 715px;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amazing .amazingtop .center .time .hour img {
+  height: inherit;
+}
+.amazing .amazingtop .center .time p {
+  padding-right: 150px;
+  font-family: persian;
+  line-height: 90px;
+  color: #27af6e;
+  font-size: large;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.amazingproduct {
+  width: 1430px;
+  height: calc(730px - 90px - 75px);
+  margin: 10px auto;
+}
+
+.flex {
+  flex-direction: column !important;
+}
+.swiper-slide1 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide1 .image {
+  width: 90%;
+  object-fit: cover;
+  transition: 300ms;
+  position: relative;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.swiper-slide1 .image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.swiper-slide1 .hover {
+  display: none;
+  width: 100%;
+}
+.swiper-slide1:hover .hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.swiper-slide1 .image::after {
+  content: attr(data-discount);
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #f16423;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 10;
+  text-align: center;
+  line-height: 50px;
+  font-family: persian;
+  color: whitesmoke;
+  font-size: bold;
+}
+.swiper-slide1 .heart1,
+.swiper-slide1 .heart2,
+.swiper-slide1 .heart3,
+.swiper-slide1 .heart4,
+.swiper-slide1 .heart5 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(244, 242, 242);
+  position: absolute;
+  right: 35px;
+  top: 25px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px white;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+}
+.swiper-slide1 .eye1,
+.swiper-slide1 .eye2,
+.swiper-slide1 .eye3,
+.swiper-slide1 .eye4, .swiper-slide1 .eye5 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(244, 242, 242);
+  position: absolute;
+  right: 35px;
+  top: 85px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px white;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+}
+.swiper-slide1 .heart2,
+.swiper-slide1 .eye2 {
+  right: 385px !important;
+}
+.swiper-slide1 .heart3,
+.swiper-slide1 .eye3 {
+  right: 735px !important;
+}
+.swiper-slide1 .heart4,
+.swiper-slide1 .eye4 {
+  right: 1085px !important;
+}
+.swiper-slide1 .heart5,
+.swiper-slide1 .eye5 {
+  right: 1435px !important;
+}
+
+.swiper-slide1:hover .heart1,
+.swiper-slide1:hover .eye1 {
+  display: block;
+  z-index: 10;
+}
+.swiper-slide1:hover .heart2,
+.swiper-slide1:hover .eye2 {
+  display: block;
+  z-index: 10;
+}
+.swiper-slide1:hover .heart3,
+.swiper-slide1:hover .eye3 {
+  display: block;
+  z-index: 10;
+}
+.swiper-slide1:hover .heart4,
+.swiper-slide1:hover .eye4 {
+  display: block;
+  z-index: 10;
+}
+.swiper-slide1:hover .heart5,
+.swiper-slide1:hover .eye5 {
+  display: block;
+  z-index: 10;
+}
+.swiper-slide1 .oldprice {
+  width: 330px;
+  height: 40px;
+  padding-top: 10px;
+}
+.swiper-slide1 .oldprice .brand,
+.swiper-slide1 .oldprice .price {
+  display: inline-block;
+  width: 45%;
+}
+.swiper-slide1 .oldprice .brand a,
+.swiper-slide1 .oldprice .price a {
+  text-decoration: none;
+}
+.swiper-slide1 .oldprice .brand {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+.swiper-slide1 .oldprice .brand a {
+  color: black;
+}
+.swiper-slide1 .oldprice .price {
+  text-align: left;
+  font-family: persian;
+  font-size: 12px;
+}
+.swiper-slide1 .oldprice .price a {
+  color: grey;
+  text-decoration: line-through;
+}
+.swiper-slide1 .newprice {
+  width: 330px;
+  height: 40px;
+  padding-top: 10px;
+}
+.swiper-slide1 .newprice .details,
+.swiper-slide1 .newprice .sales {
+  display: inline-block;
+  width: 45%;
+}
+.swiper-slide1 .newprice .details {
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: grey;
+}
+.swiper-slide1 .newprice .details a {
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+  font-family: persian;
+  font-weight: bold;
+}
+.swiper-slide1 .newprice .sales {
+  text-align: left;
+  font-family: persian;
+  font-size: 16px;
+  color: #00bf6f;
+  vertical-align: top;
+  font-weight: bold;
+}
+.swiper-slide1 .btn {
+  width: 330px;
+  padding-right: 22px;
+  display: flex;
+  justify-content: flex-start;
+}
+.swiper-slide1 .size {
+  width: 50px;
+  height: 25px;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  border-radius: 5px;
+  line-height: 16px;
+  display: block;
+}
+.roni {
+  width: 30px !important;
+  margin: 0 1px 0 1px;
+}
+.jooti {
+  width: 40px !important;
+  margin: 0 1px 0 1px;
+}
+.swiper-slide1 .size .color {
+  color: #f16423 !important;
+}
+.swiper-slide1 .size a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(87, 87, 87);
+  font-family: persian;
+  font-size: 11px;
+  font-weight: bold;
+}
+.swiper-slide1 .stock {
+  width: 160px;
+  height: 40px;
+  background-color: #f16423;
+  border-radius: 5px;
+  line-height: 40px;
+  font-family: persian;
+  font-size: 14px;
+  color: whitesmoke;
+  position: absolute;
+  bottom: 200px;
+}
+
+.amazingbottom {
+  width: inherit;
+  height: 65px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazingbottom .amazingobserve {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.amazingbottom .amazingobserve a {
+  width: 310px;
+  line-height: 50px;
+  font-family: persian;
+  color: #00bf6f;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.amazingbottom .amazingobserve a .amazingbutton {
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+  border: lightgrey solid 1px;
+  transition: 500ms;
+}
+.amazingbottom .amazingobserve:hover .amazingbutton {
+  border: #00bf6f solid 1px;
+}
