@@ -225,7 +225,7 @@ footer .main .copyright .right {
 footer .main .copyright .left {
   font-weight: bold;
   font-size: 12px;
-  color: black;
+  color: rgb(0, 0, 0);
   direction: ltr;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -252,5 +252,3 @@ footer .main .copyright .left {
   line-height: 70px;
   color: white;
 }
-
-
